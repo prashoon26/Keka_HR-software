@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Keka login">
+		<parameter name="username" value="alaba@simha.in"></parameter>
+		<parameter name="password" value="809180Ssk"></parameter>
+		<classes>
+
+			<class name="Login.Helpdesk" />
+		</classes>
+	</test>
+	<test name="create ticket">
+		<parameter name="username" value="alaba@simha.in"></parameter>
+		<parameter name="password" value="809180Ssk"></parameter>
+		<classes>
+			<class name="Login.CreateTicket">
+
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- Test -->
+</suite> <!-- Suite -->
